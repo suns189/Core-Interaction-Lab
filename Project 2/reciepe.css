@@ -1,0 +1,40 @@
+body{
+    background-image: url("junk-journal.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+}
+
+
+p{
+    text-align: center;
+    color: rgb(255, 39, 215); 
+    font-size: 30px;
+ }
+
+h1{
+    font-family: "Dashielle Bright";
+    Font-size: 100px;
+    text-align: center; 
+    color: rgb(255, 39, 215); 
+ }
+
+
+h1::before{
+    content: "\2606";
+}
+
+h1::after{
+    content: "\2606";
+}
+
+
+h3{
+    font-family: "Dashielle Bright";
+    font-size: 20px; 
+}
+
+img{
+    height: 200px;
+    width: auto; 
+}
