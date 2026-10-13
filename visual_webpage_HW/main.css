@@ -1,0 +1,71 @@
+.mainface{
+    background-color:peachpuff; 
+    height: 400px;
+    width: 700px; 
+    position:relative;
+    top: 200px;
+    left: 350px; 
+    z-index:-10; 
+}
+
+.eye-white:nth-of-type(1) {
+    background-color: white;
+    height: 120px;
+    width: 200px; 
+    position: absolute;
+    top:140px;
+    left:50px;
+}
+
+.eye-white:nth-of-type(2) {
+    background-color: white;
+    height: 120px;
+    width: 200px; 
+    position: absolute;
+    top:140px;
+    right:50px;
+}
+
+.eyeball{
+    background-color: black;
+    height: 120px;
+    width: 150px; 
+    position: absolute;
+    left:50px;
+
+}
+
+.blush__1{
+    background-color: pink;
+    height: 200px;
+    width: 200px; 
+    position: absolute;
+    top:200px;
+    left:0px;
+    z-index:-10
+}
+
+.blush__2{
+    background-color: pink;
+    height: 200px;
+    width: 200px; 
+    position: absolute;
+    top:200px;
+    right:0px;
+    z-index:-10
+}
+
+.mouth{
+    background-color:rgb(243, 102, 102);
+    height:10px;
+    width:50px;
+    position:absolute;
+    top:300px;
+    left:325px
+
+}
+
+.bangs{
+    background-color:black;
+    
+}
