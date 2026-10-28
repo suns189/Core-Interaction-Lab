@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    height:100px;
+    width:auto;
+    color:pink;
+    border: 2px solid pink;
+}
+
+.header_item{
+    border: 2px solid pink;
+}
+
+.header_itemlast{
+    grid-column-start: 10;
+    grid-column-end: 11;
+    border: 2px solid pink;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 4fr 1fr 4fr 1fr;
+    color: pink;
+    border: 2px solid pink;
+}
+
+.content_item{
+    border: 2px solid pink;
+    height:100px;
+}
+
+.content_itembig{
+    border: 2px solid pink;
+}
